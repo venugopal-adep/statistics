@@ -23,7 +23,7 @@ def main():
     distance, formula, application = calculate_distance(p1, p2, metric)
 
     st.write("## Distance Metrics Visualization")
-    st.write("**Developed by : Venugopal Adep**)
+    st.write("**Developed by : Venugopal Adep**")
     st.write(f"The **{metric} Distance** between points is: **{distance:.2f}**")
     st.write(f"**Formula:** {formula}")
     st.write(f"**Applications:** {application}")
